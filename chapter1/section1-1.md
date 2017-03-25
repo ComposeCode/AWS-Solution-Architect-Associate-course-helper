@@ -268,3 +268,5 @@ Artifacts URL: https://aws.amazon.com/artifact/
 ### Management Tools
 
 ## Cloud Watch
+
+Cloud Watch is used to monitor the performance of the AWS Environment. 
