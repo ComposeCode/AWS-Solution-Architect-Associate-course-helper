@@ -311,4 +311,6 @@ Trusted Advisor Link:
 
 ## Step Functions
 ## SWF
-## API Gateway 
+## API Gateway
+## AppStream
+## Elastic Transcoder
