@@ -66,7 +66,6 @@ This can come up in the exam, but not very often.
 
 Direct Connect Link: https://aws.amazon.com/directconnect/
 
-
 ### Compute Services
 
 ## EC2: Elastic Compute
@@ -108,3 +107,7 @@ For example, if you wish to deploy something like a Wordpress blog, Lightsail is
 This is not in the SA exam.
 
 Lightsail Link: https://amazonlightsail.com/
+
+### Storage Services
+
+## S3 Storage
