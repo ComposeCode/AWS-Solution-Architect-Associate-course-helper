@@ -111,3 +111,19 @@ Lightsail Link: https://amazonlightsail.com/
 ### Storage Services
 
 ## S3 Storage
+
+The S3 Service provides object storage, it is perfect for storing individual files, such as pictures, documents or video. Used by companies like Dropbox. This service will be covered in the exam.
+
+S3 Storage Link: https://aws.amazon.com/s3/
+
+## Glacier
+
+Glacier is used for long-term storage and is very low cost. It's very useful for backups of files and virtual machines which do not need to be accessed instantly. This service is useful if you need to store data for a long time which may be required for legal compliance.
+
+This service comes up in the exam.
+
+Glacier Link: https://aws.amazon.com/glacier/
+
+## EFS (Elastic File System)
+
+The EFS service 
