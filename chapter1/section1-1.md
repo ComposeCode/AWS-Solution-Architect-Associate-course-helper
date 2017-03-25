@@ -83,8 +83,28 @@ This is not in the exam at all yet, may come up in the future.
 
 ## Elastic Beanstalk
 
-Elastic Beanstalk service is an orchestration service is an orchestration service offered from Amazon Web Services for deploing infrastructure which orchestrates various AWS services including EC2, S3, Simple Notification Service (SNS), CloudWatch, AutoScaling and Elastic Load Balancers.
+Elastic Beanstalk service is an orchestration service is an orchestration service offered from Amazon Web Services for deploying infrastructure which orchestrates various AWS services including EC2, S3, Simple Notification Service (SNS), CloudWatch, AutoScaling and Elastic Load Balancers.
 
-The idea of this service is to reduce the amount of knowledge required to use AWS. Using this service, you can upload your source code and Elastic Beanstalk will inspect your code and deploy the infrastructure required automatically. 
+The idea of this service is to reduce the amount of knowledge required to use AWS. Using this service, you can upload your source code and Elastic Beanstalk will inspect your code and deploy the infrastructure required automatically.
+
+Basic knowledge of the service is required (what it is) but more knowledge it is not required. It comes up infrequently in the solution architect exam, but comes up more frequently in the Developer exam.
 
 Elastic Beanstalk Link: https://aws.amazon.com/elasticbeanstalk/
+
+## Lambda
+
+Lamdba is a serverless service provided by AWS. You do not manage any infrastructure, instead, you write code which is executed instead. This is significantly different to running Containers or Virtual Machines.
+
+This will be covered but is not necessary to complete the exam.
+
+Lambda Link: http://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+
+## Lightsail
+
+Lightsail is a new service which has built-in deployment patterns. This is used to reduce the barrier to entry for cloud, extensive knowledge of AWS is not required to operate the service.
+
+For example, if you wish to deploy something like a Wordpress blog, Lightsail is able to do that for you without needing to manage the infrastructure. This is similar to Canonical's Juju + Charms.
+
+This is not in the SA exam.
+
+Lightsail Link: https://amazonlightsail.com/
