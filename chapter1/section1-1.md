@@ -16,8 +16,14 @@ The core services required for the Certified Solutions Architect Associate exam 
 - Databases
 - Compute
 - Networking & Content Delivery
-- AWS Global Infrastructure 
+- AWS Global Infrastructure
 
 ### What are availability Zones
 
-###
+AWS is made available globally across the world. Each location AWS is available is split into regions and availability zones. Each region is a separate geographic area. Each region has multiple, isolated locations, known as availability zones (they usually have 2 or more availability zones).
+
+Simply put: an availability zone (AZ) is a data center. There are currently 14 regions with 38 availability zones.
+
+Link: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+
+### 
