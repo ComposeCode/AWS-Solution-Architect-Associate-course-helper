@@ -18,7 +18,7 @@ The core services required for the Certified Solutions Architect Associate exam 
 - Networking & Content Delivery
 - AWS Global Infrastructure
 
-### What are availability Zones
+### What are availability Zones?
 
 AWS is made available globally across the world. Each location AWS is available is split into regions and availability zones. Each region is a separate geographic area. Each region has multiple, isolated locations, known as availability zones (they usually have 2 or more availability zones).
 
@@ -26,4 +26,10 @@ Simply put: an availability zone (AZ) is a data center. There are currently 14 r
 
 Link: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
 
-### 
+### What are Edge Locations?
+
+Edge Locations are CDN End Points for CloudFront, they act as cache. There are currently many more Edge Locations than regions, the current count being over 66.
+
+Link: https://aws.amazon.com/about-aws/global-infrastructure/
+
+## 
