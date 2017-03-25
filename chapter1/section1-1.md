@@ -271,6 +271,44 @@ Artifacts URL: https://aws.amazon.com/artifact/
 
 Cloud Watch is used to monitor the performance of the AWS Environment. This allows you to monitor things like CPU utilisation, disk utilisation, memory, etc. This is part of the exam.
 
+Cloud Watch Link:
+
 ## Cloud Formation
 
-Cloud Formation is used to turn infrastructure into code. You can create templates of infrastructure and deploy them as required. 
+Cloud Formation is used to turn infrastructure into code. You can create templates of infrastructure and deploy them as required. This is covered as part of the exam at a high level.
+
+Cloud Format Link:
+
+## Cloud Trail
+
+This service is used for auditing changes made to AWS Resource. For example, if a user is created this is monitored by Cloud Trail. This is quite important for compliance.
+
+You only need to understand this service at a high level for the exam.
+
+Cloud Trail Link:
+
+## Opsworks
+
+This is used to automate deployments with Chef. You only need to understand this service at a high level for the exam.
+
+Opsworks Link:
+
+## Config Manager
+
+It is used to monitor configuration and gives you warnings if you are about to break configuration. You can configure alerting to send emails with crucial settings or infrastructure is changed.
+
+You only need to understand this service at a high level for the exam.
+
+Config Manager Link:
+
+## Trusted Advisor
+
+This tool provides automated tips for optimising your environment. You only need to understand this service at a high level for the exam.
+
+Trusted Advisor Link:
+
+### Application Services
+
+## Step Functions
+## SWF
+## API Gateway 
