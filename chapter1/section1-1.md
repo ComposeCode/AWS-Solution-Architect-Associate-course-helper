@@ -18,6 +18,8 @@ The core services required for the Certified Solutions Architect Associate exam 
 - Networking & Content Delivery
 - AWS Global Infrastructure
 
+These sections are broken down into specific services over the rest of the chapter.
+
 ### What are availability Zones?
 
 AWS is made available globally across the world. Each location AWS is available is split into regions and availability zones. Each region is a separate geographic area. Each region has multiple, isolated locations, known as availability zones (they usually have 2 or more availability zones).
@@ -36,7 +38,7 @@ Link: https://aws.amazon.com/about-aws/global-infrastructure/
 
 ## VPC: Virtual Private Cloud
 
-A Virtual privae cloud (VPC) is basically a virtual datacenter. It provides a virtual, dedicated network to your AWS account. It is logically isolated from other virtual networks in the AWS cloud.
+A Virtual private cloud (VPC) is basically a virtual data center. It provides a virtual, dedicated network to your AWS account. It is logically isolated from other virtual networks in the AWS cloud.
 
 In order to pass the exam you need to have a very good understanding of VPC and you should be able to build one from memory.
 
@@ -51,3 +53,5 @@ This is Amazon's DNS service, named after the DNS Port (53) and the famous Ameri
 Route 53 Link: https://aws.amazon.com/route53/
 
 ## Cloud Front: CDN/Cache service
+
+Cloud
