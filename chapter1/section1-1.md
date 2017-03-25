@@ -56,6 +56,29 @@ Route 53 Link: https://aws.amazon.com/route53/
 
 CloudFront is part of the Content Delivery Network (CDN) and is part of the Edge Network. It can be used to cache assets, such as images and videos across these locations.
 
-Amazon CloudFront Link: https://aws.amazon.com/cloudfront/
+CloudFront Link: https://aws.amazon.com/cloudfront/
 
 ## Direct Connect: Dedicated Network Connection to AWS
+
+Direct Connect provides a way to directly connect your physical datacenter to AWS using a dedicated network connection, instead of the internet. This provides a more reliable connection and improved security.
+
+This can come up in the exam, but not very often.
+
+Direct Connect Link: https://aws.amazon.com/directconnect/
+
+
+### Compute Services
+
+## EC2: Elastic Compute
+
+EC2 stands for Elastic Compute and is the service which provides virtual machines, similar to on-prem VMware, OpenStack or just plain old KVM.
+
+EC2 Link:
+
+## ECS: EC2 Container Service
+
+EC2 Container Service is a highly scalable, high performing management service for running docker containers. It allows you to run applications on a cluster of EC2 instances (virtual machines). Removes the need for you to scale, managed, monitor your own Infrastructure (virtual machines).
+
+This is not in the exam at all yet, may come up in the future.
+
+## Elastic Beanstalk
