@@ -1,1 +1,1 @@
-# Amazon Web Services - Solution Architect Associate - Chapter 1 
+# Amazon Web Services - Solution Architect Associate - Chapter 1

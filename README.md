@@ -1,2 +1,2 @@
-# RHEL7-RHCE-course-helper
+# AWS Solution Architect Associate course helper
 Free book to accompany video course
