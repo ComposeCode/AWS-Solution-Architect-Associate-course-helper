@@ -269,4 +269,8 @@ Artifacts URL: https://aws.amazon.com/artifact/
 
 ## Cloud Watch
 
-Cloud Watch is used to monitor the performance of the AWS Environment. 
+Cloud Watch is used to monitor the performance of the AWS Environment. This allows you to monitor things like CPU utilisation, disk utilisation, memory, etc. This is part of the exam.
+
+## Cloud Formation
+
+Cloud Formation is used to turn infrastructure into code. You can create templates of infrastructure and deploy them as required. 
