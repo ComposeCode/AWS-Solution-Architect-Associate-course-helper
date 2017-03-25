@@ -178,4 +178,41 @@ Database migration service allows you to migrate on-prem databases to Amazon or 
 
 At the same time, you can also convert your database to another type of database (for example, go from Oracle to AURA or another database type).
 
+Not currently in the exam.
+
 Database Migration Services: https://aws.amazon.com/dms/
+
+## Server Migration Service (SMS)
+
+This allows migration of virtual machines, up to 50 migrations concurrently. This is not in the exam.
+
+Server Migration Service Link: https://aws.amazon.com/server-migration-service/
+
+### Analytics Services
+
+## Athena
+
+This service allows you to run SQL queries on files. You can use flatfiles as regular databases. Not featured in the exams yet.
+
+Athena Link: https://aws.amazon.com/athena/
+
+## EMR (Elastic Map Reduce)
+
+This service is used for Big Data. It is used to process large amounts of data (logs, financial data etc). This is part of Hadoop. A high level overview is required for the associate architects course.
+
+EMR Link: https://aws.amazon.com/emr/
+
+## Cloud Search / Elastic Search
+
+Cloud Search is managed service provided by AWS for search functionality. Elastic Search is similar to Cloud Search but uses OpenSource products instead. Neither of these come up very often in the associate exams.
+
+Cloud Search Link: https://aws.amazon.com/cloudsearch/
+Elastic Search Link: https://aws.amazon.com/elasticsearch-service/
+
+## Kinesis
+
+Kinesis is used to perform analysis tasks on large amounts of data.  It is used a lot in the big data exam. You can use the service to capture many terabytes of data per hour.
+
+Kinesis Link: https://aws.amazon.com/kinesis/streams/
+
+## 
