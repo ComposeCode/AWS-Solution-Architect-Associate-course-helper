@@ -184,7 +184,7 @@ Database Migration Services: https://aws.amazon.com/dms/
 
 ## Server Migration Service (SMS)
 
-This allows migration of virtual machines, up to 50 migrations concurrently. This is not in the exam.
+SMS allows migration of virtual machines, up to 50 migrations concurrently. This is not in the exam.
 
 Server Migration Service Link: https://aws.amazon.com/server-migration-service/
 
@@ -192,13 +192,13 @@ Server Migration Service Link: https://aws.amazon.com/server-migration-service/
 
 ## Athena
 
-This service allows you to run SQL queries on files. You can use flatfiles as regular databases. Not featured in the exams yet.
+Athena allows you to run SQL queries on files. You can use flatfiles as regular databases. Not featured in the exams yet.
 
 Athena Link: https://aws.amazon.com/athena/
 
 ## EMR (Elastic Map Reduce)
 
-This service is used for Big Data. It is used to process large amounts of data (logs, financial data etc). This is part of Hadoop. A high level overview is required for the associate architects course.
+Elastic Map Reduce is used for Big Data. It is used to process large amounts of data (logs, financial data etc). This is part of Hadoop. A high level overview is required for the associate architects course.
 
 EMR Link: https://aws.amazon.com/emr/
 
@@ -215,4 +215,16 @@ Kinesis is used to perform analysis tasks on large amounts of data.  It is used 
 
 Kinesis Link: https://aws.amazon.com/kinesis/streams/
 
-## 
+## Data Pipeline
+
+The Data Pipeline is a service used to move data from one place to another. You can use this for moving data from S3 into DynamoDB for example. A high level overview is required for the exam, it doesn't come up often.
+
+Data Pipeline Link: https://aws.amazon.com/datapipeline/
+
+## QuickSight
+
+Quicksight can be used for business analytics (BI). It can be used to create reports and dashboards etc. It doesn't come up very often.
+
+Quicksight Link: https://quicksight.aws/
+
+##
