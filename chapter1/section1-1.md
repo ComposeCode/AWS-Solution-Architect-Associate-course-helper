@@ -54,4 +54,8 @@ Route 53 Link: https://aws.amazon.com/route53/
 
 ## Cloud Front: CDN/Cache service
 
-Cloud
+CloudFront is part of the Content Delivery Network (CDN) and is part of the Edge Network. It can be used to cache assets, such as images and videos across these locations.
+
+Amazon CloudFront Link: https://aws.amazon.com/cloudfront/
+
+## Direct Connect: Dedicated Network Connection to AWS
