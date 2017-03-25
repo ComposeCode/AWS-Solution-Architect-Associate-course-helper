@@ -126,4 +126,32 @@ Glacier Link: https://aws.amazon.com/glacier/
 
 ## EFS (Elastic File System)
 
-The EFS service
+The EFS service provides block based storage which can be used by multiple virtual machines. This can be used to create virtual disks, which can be used by multiple virtual machines. This will come up in the exam so it is covered in detail.
+
+EFS Link: https://aws.amazon.com/efs/
+
+## Storage Gateway
+
+The storage gateway service is used to connect on-premise datacenters to AWS and usually comes in the format of a virtual machine/virtual appliance. This is not in the exam.
+
+Storage Gateway Link: https://aws.amazon.com/storagegateway/
+
+### Databases
+
+## RDS (Relational Database Service)
+
+RDS provides relational databases as a service. This includes MySQL, Postgresql, MariaDB, Microsoft SQL Server, Oracle and Aura. This is covered in the course.
+
+RDS Link: https://aws.amazon.com/rds/
+
+## DynamoDB (NoSQL Database Service)
+
+DynamoDB is a non-relational database service (similar to MongoDB). Very scalable and high performance. Covered but not in detail for the exam.
+
+DynamoDB Link: https://aws.amazon.com/dynamodb/
+
+## RedShift
+
+RedShift is Amazon's data warehouse solution. This is used for running queries and other tasks on data outside of production databases.
+
+RedShift Link: https://aws.amazon.com/redshift/
