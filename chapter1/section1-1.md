@@ -152,6 +152,30 @@ DynamoDB Link: https://aws.amazon.com/dynamodb/
 
 ## RedShift
 
-RedShift is Amazon's data warehouse solution. This is used for running queries and other tasks on data outside of production databases.
+RedShift is Amazon's data warehouse solution. This is used for running queries and other tasks on data outside of production databases. Not required for the Solution Architect course.
 
 RedShift Link: https://aws.amazon.com/redshift/
+
+## Elasticache
+
+Elasticache is used to cache data in the cloud. If your application is designed correctly, you can design your application to store certain data in this service instead of your database to remove load off the database.
+
+Elastiache Link: https://aws.amazon.com/elasticache/
+
+### Migration Services
+
+## Snowball
+
+Snowball is used as a migration service for data. Amazon provide a device which they post to you (a big grey box full of disks) which you in turn fill up with data. Once the box is full, you post it back to Amazon and it gets stored in the cloud.
+
+This service is included in the associate exam.
+
+Snowball Link: https://aws.amazon.com/snowball/
+
+## DMS (Database Migration Services)
+
+Database migration service allows you to migrate on-prem databases to Amazon or existing databases on AWS to other regions or redshift and other cloud services.
+
+At the same time, you can also convert your database to another type of database (for example, go from Oracle to AURA or another database type).
+
+Database Migration Services: https://aws.amazon.com/dms/
