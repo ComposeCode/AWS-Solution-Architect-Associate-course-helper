@@ -73,7 +73,7 @@ Direct Connect Link: https://aws.amazon.com/directconnect/
 
 EC2 stands for Elastic Compute and is the service which provides virtual machines, similar to on-prem VMware, OpenStack or just plain old KVM.
 
-EC2 Link:
+EC2 Link: https://aws.amazon.com/ec2/
 
 ## ECS: EC2 Container Service
 
@@ -82,3 +82,9 @@ EC2 Container Service is a highly scalable, high performing management service f
 This is not in the exam at all yet, may come up in the future.
 
 ## Elastic Beanstalk
+
+Elastic Beanstalk service is an orchestration service is an orchestration service offered from Amazon Web Services for deploing infrastructure which orchestrates various AWS services including EC2, S3, Simple Notification Service (SNS), CloudWatch, AutoScaling and Elastic Load Balancers.
+
+The idea of this service is to reduce the amount of knowledge required to use AWS. Using this service, you can upload your source code and Elastic Beanstalk will inspect your code and deploy the infrastructure required automatically. 
+
+Elastic Beanstalk Link: https://aws.amazon.com/elasticbeanstalk/
