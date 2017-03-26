@@ -54,3 +54,9 @@ Which option do I pick? It comes down to retrieval time and cost considerations.
 ```
   Need table comparing different Tiers/Classes of S3 storage.
 ```
+
+Note all services support SSL.
+
+## What is Glacier?
+
+Glacier is a separate service to S3: It is an extremely low-cost storage service for data archival. Amazon Glacier stores data for as little as $0.01 per gigabyte per month, and is optimized for data that is infrequently accessed and for which retrieval times of 3 to 5 hours are suitable.
