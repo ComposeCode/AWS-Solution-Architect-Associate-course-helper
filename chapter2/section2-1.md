@@ -86,4 +86,40 @@ A billing alarm will send you a notification if you spend a certain amount of fu
 
 Summary: This can come up in the exam, important to know how to configure it.
 
-### 
+### IAM Summary
+
+IAM consists of:
+ - Users
+ - Groups (A way to group users and apply policies to them collectively),
+ - Roles
+ - Policy Documents.
+
+Example Policy Document:
+
+```
+  {
+      "Version": "2012-10-17",
+      "Statement":
+        [
+          {
+              "Effect": "Allow",
+              "Action": "*",
+              "Resource": "*",
+          }
+        ]
+  }
+```
+
+- IAM is Universal, it does not matter which region you are in.
+
+- The root account is the account created when you first create your AWS account. This has the highest level of privileges and should be locked down and rarely used.
+
+- New users has no permissions when they are first created. They must be assigned privileges.
+
+- New Users are assigned Access Key ID and Secret Access Keys when first created. These are not the sae as a password, and you cannot use the access key ID & secret access to log into the console. You can use this to access AWS via the APIs and Command Line however.
+
+- You only get to view those credentials once, they should be saved otherwise you will have to regenerate them.
+
+- You should enable multifactor authentication (MGA) on your root account.
+
+- You can create and customise your own password rotation polices.
