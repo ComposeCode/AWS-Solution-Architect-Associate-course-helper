@@ -342,6 +342,25 @@ Elastic TransCoder Link:
 ### Developer Tools
 
 ## CodeCommit
+
+Code Commit is similar to Github. It provides a secure place to store your code in the cloud (either privately or publically). High level knowledge of service required.
+
+Code Commit URL:
+
 ## CodeBuild
+
+CodeBuild provides a service for compiling code, paid per minute. High level knowledge of service required.
+
+Code Build URL:
+
 ## CodeDeploy
+
+CodeDeploy provides a service for automated code deployment to your EC2 instances. High level knowledge of service required.
+
+Code Deploy URL:
+
 ## CodePipeLine
+
+CodePipeline: is used to keep track of different versions of code. High level knowledge of service required.
+
+Code Pipeline URL:
