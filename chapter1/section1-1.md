@@ -397,6 +397,26 @@ Internet of Things Link:
 
 ### Desktop and App Streaming
 
-## WorkSpaces 
+## WorkSpaces
 
-### Messaging
+WorkSpaces provides a cloud-backed VDI Solution. It allows you to run your desktop environment in the cloud which can run with a thin-client. High level knowledge of the service is required.
+
+Workspaces Link:
+
+### Artificial Intelligence
+
+## Lex Service
+
+Not in the exam yet.
+
+Lex Service Link:
+
+## Polly Service
+
+This is a text to speech service and it will output .mp3 audio of the text. Not in the exam yet.
+
+Polly Service Link:
+
+## Machine Learning
+
+Machine Learning Link: 
