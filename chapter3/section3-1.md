@@ -41,4 +41,16 @@ S3 is object based, objects consist of the following properties (each file you u
 
 ### Different Storage Tiers/Classes
 
-S3 is designed to be redundant in the event of the loss of facilities. Files are stored across multiple devices in multiple facilities. 
+S3 is designed to be redundant in the event of the loss of facilities. Files are stored across multiple devices in multiple facilities. Very highly available.
+
+S3 - IA (Infrequently Accessed) for data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but you are charged a retrieval fee.
+
+Reduced Redundancy Storage: Designed to provide 99.99% durability and 99.99% availability of objects over a given year.
+
+Glacier: Very cheap, but used for archival only. It takes 3-5 hours to restore from Glacier.
+
+Which option do I pick? It comes down to retrieval time and cost considerations. Questions in the exam will focus around which option to pick based on a given scenario.  
+
+```
+  Need table comparing different Tiers/Classes of S3 storage.
+```
