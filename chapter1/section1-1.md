@@ -379,6 +379,24 @@ Mobile Hub URL:
 
 ### Business Productivity
 
+## Work docs && WorkMail
 
+Work docs is used to store documents in the cloud securely. This is not in any of the exams.
+
+WorkMail is cloud-backed email, similar to outlook or gmail. Amazon basically manages the email servers for you. This is not in any of the exams.
+
+Work Docs Link:
+Work Mail Link:
+
+### Internet of Things (IoT)
+
+IoT is a service in itself. This service allows you to manage and track devices.  This is not in any of the exams.
+
+Internet of Things Link:
+
+
+### Desktop and App Streaming
+
+## WorkSpaces 
 
 ### Messaging
