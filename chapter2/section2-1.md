@@ -59,4 +59,21 @@ Critical Terminology:
 
 13) Security Credentials: this tab of a user can be used to create new access keys, make access keys inactive and create SSH keys for code commit.
 
-14) Create an IAM Password Policy: 
+14) Create an IAM Password Policy (IAM -> Account Settings). No reuse, etc.
+
+15) Create a new Role (IAM -> Go to Roles), select a policy, put in a name, hit create.
+
+### Creating Billing Alarms
+
+A billing alarm will send you a notification if you spend a certain amount of funds on Amazon.
+
+1) Log into AWS Console.
+
+2) Click your name (top right) and hit My Billing Dashboard.
+  - https://console.aws.amazon.com/billing/home#/
+
+3) At the bottom, it says Alerts and Notifications.
+
+  - Click 'Enable Now' for: Monitor your estimated charges. Enable Now to begin setting billing alerts that automatically e-mail you when charges reach a threshold you define.
+
+4) On the next page, hit Receive Billing Alerts and then hit save preferences. Note that this feature cannot be disabled once it has been enabled.
