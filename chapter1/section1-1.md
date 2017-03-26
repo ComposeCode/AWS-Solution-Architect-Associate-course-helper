@@ -329,12 +329,19 @@ API Gateway Link:
 
 ## AppStream
 
-
+Appstream is used for streaming desktop applications to your users, not in any of the current exams.
 
 App Stream Link:
 
 ## Elastic Transcoder
 
-
+This is a transcoder service used to manipualte the formats of videos. This can be used to automatically convert videos into different video formats for different devices. Does not come up in the exam.
 
 Elastic TransCoder Link:
+
+### Developer Tools
+
+## CodeCommit
+## CodeBuild
+## CodeDeploy
+## CodePipeLine
