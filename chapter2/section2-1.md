@@ -59,4 +59,4 @@ Critical Terminology:
 
 13) Security Credentials: this tab of a user can be used to create new access keys, make access keys inactive and create SSH keys for code commit.
 
-14) 
+14) Create an IAM Password Policy: 
