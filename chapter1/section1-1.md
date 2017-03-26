@@ -394,7 +394,6 @@ IoT is a service in itself. This service allows you to manage and track devices.
 
 Internet of Things Link:
 
-
 ### Desktop and App Streaming
 
 ## WorkSpaces
@@ -419,4 +418,31 @@ Polly Service Link:
 
 ## Machine Learning
 
-Machine Learning Link: 
+Machine Learning Link:
+
+## Rekognition
+
+A service for photo recognition. If you give the service an image, it can tell you what is in the image. You can also use it is to compare people in the photographs. This is not in an exam yet.
+
+Recokognition Link:
+
+
+### Messaging Services
+
+## SNS (Simple Notification Services)
+
+The SNS service is used to notify people either via email or through text message. You can also notify to HTTP and HTTPS end points. This comes up in the exam.
+
+SNS Link:
+
+## SQS (Simple Queue Service)
+
+The SQS allows you to decouple your application; it provides a messaging queue like Apache MQ or RabbitMQ. This will come up in the exam.
+
+SQS Link:
+
+## SES: Simple Email Service
+
+This is a simple service for sending emails, this comes up in the exam.
+
+SES Link:
