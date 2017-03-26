@@ -53,4 +53,10 @@ Critical Terminology:
    - The secret access key ID is used for API calls.
    - You can also send an email to your users containing Login instructions.
 
-11) 
+11) Create a new group which has read only access to S3 buckets. Assign one of the users to the S3 bucket.
+
+12) Go to IAM -> Users -> Click a newly created user. Under Permissions you can see the available policies he has.
+
+13) Security Credentials: this tab of a user can be used to create new access keys, make access keys inactive and create SSH keys for code commit.
+
+14) 
