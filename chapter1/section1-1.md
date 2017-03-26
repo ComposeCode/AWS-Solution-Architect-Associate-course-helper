@@ -364,3 +364,15 @@ Code Deploy URL:
 CodePipeline: is used to keep track of different versions of code. High level knowledge of service required.
 
 Code Pipeline URL:
+
+### Mobile Services
+
+## Mobile Hub
+
+Allows you to add, configure and design features for your mobile app. This includes user authentication, data storage, backend logic, push notifications, etc. High level knowledge of service required.
+
+This hub includes other services, such as Cognito.
+
+Mobile Hub URL:
+
+### Messaging
