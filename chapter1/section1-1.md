@@ -310,7 +310,31 @@ Trusted Advisor Link:
 ### Application Services
 
 ## Step Functions
-## SWF
+
+This is a brand new service for visualising what is happening inside your application or microservice. Not included in any exams yet.
+
+Step Functions Link:
+
+## SWF: Simple Workflow Services
+
+SWF is a workflow tool/engine, allows you to coordinate both human led tasks and automated tasks. This is required for the exam.
+
+SWF Functions Link:
+
 ## API Gateway
+
+API Gateway is used to secure, expose and monitor APIs at scale. It is a front door for your backend services (similar to 3scale and products from mulesoft). High level knowledge of this service is required for the exam.
+
+API Gateway Link:  
+
 ## AppStream
+
+
+
+App Stream Link:
+
 ## Elastic Transcoder
+
+
+
+Elastic TransCoder Link:
