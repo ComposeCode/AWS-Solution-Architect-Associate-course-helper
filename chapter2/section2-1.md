@@ -26,4 +26,20 @@ Critical Terminology:
 - Roles: You Create Roles and can then assign them to AWS resources
 - Policies: A document that defines one (or more permissions)
 
-###
+### Using IAM
+
+```
+  need screenshots of using IAM
+```
+
+1) Log into AWS console
+2) Go to IAM in the console
+3) Note that IAM is applied globally (note, this changes in the top right hand side)
+4) Change the single users sign in link (This creates an ALIAS domain for logging into IAM)
+5) The root account is the initial account created as part of the sign up and most likely contains the credit card details and highest privileges etc.
+6) Enable Multifactor Authentication (MFA) on your root account - need example using mobile phone or another device.
+7) Create a new user (put in some users, set a password policy). When going to set permissions, hit 'add users to group'
+8) Create a new group (create a new group called system administrators). Each policy is a document (you can see the document if you click on a policy).
+9) Create Users
+10) Explain the access key ID, secret access key and the password for the new accounts.
+11) 
