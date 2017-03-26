@@ -14,6 +14,10 @@ S3 is a place to store your files (pictures, movies, music, etc) in the cloud. I
 - Files are stored in buckets.
 - S3 is a universal namespace, that is, names must be unique globally.
 - When files are uploaded to S3, you will receive a HTTP 200 code once the file has been uploaded successfully (http codes are important for the exam).
+- Built for 99.99% availability (Amazon Guarantee)
+- Built for 99.99% durability for S3 Information 99.999999999% (remember 11 x 9's)
+- Tiered Storage Options
+- Lifecycle Management 
 
 ### Data Consistency Model for S3.
 
@@ -24,10 +28,10 @@ What this means: When you PUT a new object into S3 you will get immediate consis
 
 ### S3 is a simple key, value store.
 
-S3 is object based, objects consist of the following properties:
+S3 is object based, objects consist of the following properties (each file you upload will have these properties)
 
  - Key (This is simply the name of the object)
  - Value (This is the simply the data which make up the value)
  - Version ID (Important for versioning)
  - Metadata (Data about the data you are storing)
- 
+ - Subresources (Made up of Access Control Lists, Torrent)
