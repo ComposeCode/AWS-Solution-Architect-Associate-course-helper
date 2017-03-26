@@ -1,4 +1,4 @@
-# Chapter 1, Section 1: The S3 Storage Service
+# Chapter 3, Section 1: The S3 Storage Service
 
 ### What is S3 Storage?
 
@@ -17,7 +17,10 @@ S3 is a place to store your files (pictures, movies, music, etc) in the cloud. I
 - Built for 99.99% availability (Amazon Guarantee)
 - Built for 99.99% durability for S3 Information 99.999999999% (remember 11 x 9's)
 - Tiered Storage Options
-- Lifecycle Management 
+- Lifecycle Management
+- Versioning of Files
+- Encryption of Files
+- Secure data using Access Control Lists (ACL) and Bucket Policies
 
 ### Data Consistency Model for S3.
 

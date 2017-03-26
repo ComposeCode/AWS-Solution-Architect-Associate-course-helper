@@ -1,4 +1,4 @@
-# Chapter 1, Section 1: Identity Access Managaement (IAM)
+# Chapter 2, Section 1: Identity Access Managaement (IAM)
 
 This service allows you to configure who is able to access your account on the AWS console. You can create user groups, modify user permissions and perform other actions in this section of the AWS Console. This is part of the exam and we will now cover it in detail.
 
