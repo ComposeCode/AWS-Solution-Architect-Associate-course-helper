@@ -37,4 +37,8 @@ S3 is object based, objects consist of the following properties (each file you u
  - Value (This is the simply the data which make up the value)
  - Version ID (Important for versioning)
  - Metadata (Data about the data you are storing)
- - Subresources (Made up of Access Control Lists, Torrent)
+ - Sub resources (Made up of Access Control Lists, Torrent)
+
+### Different Storage Tiers/Classes
+
+S3 is designed to be redundant in the event of the loss of facilities. Files are stored across multiple devices in multiple facilities. 
