@@ -77,3 +77,13 @@ A billing alarm will send you a notification if you spend a certain amount of fu
   - Click 'Enable Now' for: Monitor your estimated charges. Enable Now to begin setting billing alerts that automatically e-mail you when charges reach a threshold you define.
 
 4) On the next page, hit Receive Billing Alerts and then hit save preferences. Note that this feature cannot be disabled once it has been enabled.
+
+5) Go back to the console -> Services -> Management Tools -> Cloud watch
+
+6) Go to Alarms -> Billing and hit create alarms.
+
+7) Create a billing alarm and verify the email address. If the estimated charge exceeds the limit you set, you should receive an email.
+
+Summary: This can come up in the exam, important to know how to configure it.
+
+### 
