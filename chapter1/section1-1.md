@@ -371,8 +371,14 @@ Code Pipeline URL:
 
 Allows you to add, configure and design features for your mobile app. This includes user authentication, data storage, backend logic, push notifications, etc. High level knowledge of service required.
 
-This hub includes other services, such as Cognito.
+This hub includes other services, such as Cognito. Device Farm enables you to improve the quality of your mobile apps by providing a test environment for your apps.
+
+Mobile Analytics is a service for analysing mobile usage data collected from your mobile app. Pinpoint is used to gather the application usage data from the mobile app (similar to Google Analytics).
 
 Mobile Hub URL:
+
+### Business Productivity
+
+
 
 ### Messaging
