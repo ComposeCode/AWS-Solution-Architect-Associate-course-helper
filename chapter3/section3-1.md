@@ -60,3 +60,13 @@ Note all services support SSL.
 ## What is Glacier?
 
 Glacier is a separate service to S3: It is an extremely low-cost storage service for data archival. Amazon Glacier stores data for as little as $0.01 per gigabyte per month, and is optimized for data that is infrequently accessed and for which retrieval times of 3 to 5 hours are suitable.
+
+## Comparing S3 vs Glacier
+
+```
+  Need table comparing the differences between S3 and Glacier.
+```
+
+S3 and Glacier have different availability Guarantee, SLA and minimum object size. Data stored in Glacier must exist for at least 90 days.
+
+The most important difference is the first byte latency which is the time taken for data retrieval. For Glacier it is minutes/hours instead of milliseconds. 
