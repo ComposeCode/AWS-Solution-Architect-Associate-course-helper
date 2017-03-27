@@ -1,4 +1,4 @@
-# Chapter 3, Section 1: Using S3 from the AWS Console
+# Chapter 3, Section 2: Using S3 from the AWS Console
 
 ### Using S3
 
@@ -53,4 +53,21 @@ Once versioning has been enabled, it cannot be removed, only disabled. This is a
 
 1) Go back to the bucket and click the tick next to the file to be deleted. Go to more -> Delete and delete the file.
 
-2) 
+2) Go to the old console (top right hand side for old console).
+
+3) Go to the bucket and hit show. You should be able to see the two/three different versions we uploaded.
+
+4) To restore a deleted file, we just need to remove the Delete Marker. Select the Delete Market and hit Actions -> Delete.
+
+```
+  Need steps to remove the deleted marker in the new gui
+```
+
+## S3 Versioning Summary
+
+- Stores all versions of an object (including all writes and even if you delete an object)
+- Great backup tool
+- Once enabled, versioning cannot be disabled, only suspended.
+- Integrates with Lifecycle rules
+- Versioning's MFA Delete capability, which uses multi-factor authentication, can be used to provide an additional layer of security.
+  - You can configure object deletion, such as that, MFA must be used to delete an object (stops malicious deletes).
