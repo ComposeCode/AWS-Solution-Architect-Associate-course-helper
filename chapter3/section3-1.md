@@ -88,3 +88,17 @@ Transfer Acceleration: Amazon S3 Transfer Acceleration enables fast, easy and se
 ```
 
 ## S3 Exam Tips
+
+- Remember that S3 is object based i.e. allows you to upload files.
+- Files can be from 0bytes to 5TB.
+- There is unlimited storage.
+- Files are stored in buckets.
+- S3 is a universal namespace, that is, names must be unique globally.
+- Format of S3 bucket (important for the exam): https://s3-eu-west-1.amazonaws.com/bucketname
+- Read after Write consistency for PUTS of new objects.
+- Eventual Consistency for overwrite PUTS and DELETES (can take some time to propagate)
+- S3 Storage Classes/Tiers:
+  - Regular S3 (durable, immediately available, frequently accessed)
+  - S3 - IA (durable, immediately available, infrequently accessed)
+  - S3 - Reduced Redundancy Storage (data that is easily reproducible, such as thumb nails etc)
+  - Glacier (archived data, where you can wait 3-5 hours before accessing)
