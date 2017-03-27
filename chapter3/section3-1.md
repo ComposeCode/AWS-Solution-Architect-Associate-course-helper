@@ -102,3 +102,20 @@ Transfer Acceleration: Amazon S3 Transfer Acceleration enables fast, easy and se
   - S3 - IA (durable, immediately available, infrequently accessed)
   - S3 - Reduced Redundancy Storage (data that is easily reproducible, such as thumb nails etc)
   - Glacier (archived data, where you can wait 3-5 hours before accessing)
+
+- Remember the core fundamentals of an S3 object:
+  - Key (name, stored in alphabetical order)
+  - Value (the data itself)
+  - Version ID
+  - Metadata
+  - Sub resources (ACL, Torrent)
+
+- Object based storage only (for files)
+- Not suitable to install an operating system on.
+- Successful uploads will generate a HTTP 200 status code.
+
+- Read the S3 FAQ before taking the exam.
+
+## S3 FAQ
+
+- Need a link to the S3 FAQ etc. 
