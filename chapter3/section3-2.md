@@ -47,4 +47,10 @@ Once versioning has been enabled, it cannot be removed, only disabled. This is a
   - Notice that when you change the file the etag of the file changes.
   - The total bucket size is the size of each version for each file (so multiple changes to a file add up disk space).
   - From architectural point of view, versioning requires some constraint, you will need to cull old versions at some point and archive them to Glacier at some point.
-  -
+  - Though it looks like one file, it is actually storing multiple files. The total size is the sum of size of all versions of the file.
+
+## Restoring a deleted file
+
+1) Go back to the bucket and click the tick next to the file to be deleted. Go to more -> Delete and delete the file.
+
+2) 
