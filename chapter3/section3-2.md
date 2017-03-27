@@ -43,4 +43,8 @@ Once versioning has been enabled, it cannot be removed, only disabled. This is a
 
 3) When you click on the file in the bucket, you should have the option to check the Latest Version of the file. Make the file public and check its contents in the browser.
 
-4) Try re-uploading the file, you should notice that another version becomes available. You can download newer and older version fo the file. 
+4) Try re-uploading the file, you should notice that another version becomes available. You can download newer and older version of the file.
+  - Notice that when you change the file the etag of the file changes.
+  - The total bucket size is the size of each version for each file (so multiple changes to a file add up disk space).
+  - From architectural point of view, versioning requires some constraint, you will need to cull old versions at some point and archive them to Glacier at some point.
+  -
