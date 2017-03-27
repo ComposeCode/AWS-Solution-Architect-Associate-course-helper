@@ -69,4 +69,22 @@ Glacier is a separate service to S3: It is an extremely low-cost storage service
 
 S3 and Glacier have different availability Guarantee, SLA and minimum object size. Data stored in Glacier must exist for at least 90 days.
 
-The most important difference is the first byte latency which is the time taken for data retrieval. For Glacier it is minutes/hours instead of milliseconds. 
+The most important difference is the first byte latency which is the time taken for data retrieval. For Glacier it is minutes/hours instead of milliseconds.
+
+## S3 Charges
+
+Charged for:
+
+- Charge for Storage (how much data you are storing on S3)
+- Number of requests made to objects in the service
+- Storage Management Pricing (tags can be used but cost money, they can be used to tag storage to different departments or users etc)
+- Data Transfer Pricing (moving data from one region to another)
+- Transfer Acceleration
+
+Transfer Acceleration: Amazon S3 Transfer Acceleration enables fast, easy and secure transfers of files over long distances between your end users and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront's globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path. This tool can be used to check which edge location gives the fastest speed for transfers.
+
+```
+ Need diagram of this in practice.
+```
+
+## S3 Exam Tips
