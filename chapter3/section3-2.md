@@ -19,7 +19,7 @@ First log into the AWS Console, then perform the following steps:
 - Upload a random file (select a picture or something else)
 - Hit next to set permissions, leave it as default.
 - On the next page we can set properties: Which storage class (types of S3 discussed previously), do we want encryption on the file, do we want to attach metadata to the file?
-- Go through and hit next until the uplaod button is hit and the file is available in the bucket (should be in the object list).
+- Go through and hit next until the upload button is hit and the file is available in the bucket (should be in the object list).
 
 - Note that if you click the file, you can see the Link to the file. Note if you click the file, you will get an accessed denied error. This is because the default permissions are set to deny.
 
@@ -37,4 +37,10 @@ Before we begin, change the Permissions on the bucket so that Everyone has read 
 
 Once versioning has been enabled, it cannot be removed, only disabled. This is a key point for the exam.
 
-1)
+1) Outside of the console on your computer, create a text file with some text called test.txt
+
+2) Upload the file to AWS, make sure versioning is enabled on the bucket before hand. When you Upload the file make sure the read permission for everyone is to read.
+
+3) When you click on the file in the bucket, you should have the option to check the Latest Version of the file. Make the file public and check its contents in the browser.
+
+4) Try re-uploading the file, you should notice that another version becomes available. You can download newer and older version fo the file. 
