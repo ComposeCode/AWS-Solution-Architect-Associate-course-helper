@@ -12,4 +12,10 @@ First log into the AWS Console, then perform the following steps:
 - Management Tab -> Metrics: This shows metrics for data in our bucket (total storage, transfer rates etc)
 - Management Tab -> Inventory: These are reports on what is actually in our buckets.
 
-## Upload a file to S3 
+## Upload a file to S3
+
+- Click on the bucket and hit the objects tab.
+- Hit the Upload Button, and then hit add files.
+- Upload a random file (select a picture or something else)
+- Hit next to set permissions, leave it as default.
+- On the next page we can set properties: 
