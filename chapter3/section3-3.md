@@ -38,4 +38,4 @@ Lifecycles, when applied to storage, are used to help you reduce your storage co
  - Following actions can now be done:
     - Transition to the standard, infrequent access storage class (128kb and 30 days after the creation date).
     - Archive to the Glacier Storage Class (30 days after IA, if relevant).
-    - 
+    - Permanently delete files after a certain amount of time.
