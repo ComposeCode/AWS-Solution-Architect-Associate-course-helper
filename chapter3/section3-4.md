@@ -66,4 +66,15 @@ Amazon CloudFront is optimized to work with other Amazon web services, like Amaz
   - Price Classes: Only use certain locations or use all. (Select use all edge locations)
   - WAF/Web ACL: you can use a web application firewall to secure your CloudFront distribution content.
   - Alternate Domain Names: You can create cname entries for the Distribution (leave blank)
-    - **If you use custom domain name, you have to create a custom SSL cert if you are using HTTPS> 
+    - **If you use custom domain name, you have to create a custom SSL cert if you are using HTTPS.
+
+  - Logging can be enabled or disabled for debugging.  
+
+  ```
+    Need example verifying the location of the file on CloudFront and S3.
+  ```
+
+  - Click on the bucket. You can verify the Origins and Behaviours.
+    - Note you can have multiple origins for a Distribution (Multiple S3 buckets etc)
+    - Behaviors: You can create rules (regular expressions) for matching things like file type to certain buckets.
+    - 
