@@ -34,4 +34,4 @@ Amazon CloudFront is optimized to work with other Amazon web services, like Amaz
 
 - Edge locations are not just READ only, you can write to them too (put an object onto them).
 - Objects are cached for the life of the TTL (time to live).
-- You can clear cached objects, but you will be charged. 
+- You can clear cached objects, but you will be charged.
