@@ -35,3 +35,12 @@ Amazon CloudFront is optimized to work with other Amazon web services, like Amaz
 - Edge locations are not just READ only, you can write to them too (put an object onto them).
 - Objects are cached for the life of the TTL (time to live).
 - You can clear cached objects, but you will be charged.
+
+### Create a CloudFront Distribution
+
+1) Log into AWS Console, go to S3. Go to a bucket with an image uploaded, or create a new one.
+
+2) Once you have one setup, Go to Services -> (Under networking and Content Delivery) CloudFront and hit Create Distribution.
+  - You can create either a web distribution or RTMP distribution. 
+
+3)  
