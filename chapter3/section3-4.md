@@ -56,4 +56,14 @@ Amazon CloudFront is optimized to work with other Amazon web services, like Amaz
   - Viewer Protocol Policy: Set which protocol (HTTP/HTTPS) can be used to view files. Set Redirect HTTP to HTTPS.
   - Allowed HTTP Methods: Set this to GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE (Allows you to set which HTTP Methods the Distribution can use)
   - Object Caching: Use Origin Cache Headers
-  - Set the TTL values per object (time in seconds). The default TTL for all our objects will be cached at our edge locations for 1 day. 
+  - Set the TTL values per object (time in seconds). The default TTL for all our objects will be cached at our edge locations for 1 day.
+
+  - Forward Cookies: No
+  - Forward Query Strings: No
+  - Restrict Viewer Access (Used signed URLS or Signed Cookies): No (Exam Tip: You can restrict access using Signed URLs or Signed Cookies)
+  - Compress Objects Automatically: No
+
+  - Price Classes: Only use certain locations or use all. (Select use all edge locations)
+  - WAF/Web ACL: you can use a web application firewall to secure your CloudFront distribution content.
+  - Alternate Domain Names: You can create cname entries for the Distribution (leave blank)
+    - **If you use custom domain name, you have to create a custom SSL cert if you are using HTTPS> 
