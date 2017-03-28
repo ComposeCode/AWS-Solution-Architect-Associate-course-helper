@@ -77,4 +77,10 @@ Amazon CloudFront is optimized to work with other Amazon web services, like Amaz
   - Click on the bucket. You can verify the Origins and Behaviours.
     - Note you can have multiple origins for a Distribution (Multiple S3 buckets etc)
     - Behaviors: You can create rules (regular expressions) for matching things like file type to certain buckets.
-    - 
+    - Error Pages: You can create custom errors pages when people try to access things they are not allowed to.
+    - Restrictions You can enabled geo graphical restrictions.
+      - Enable Geographical Restrictions (hit Yes on the Geo-Restriction)
+      - Restriction Type: (Whitelist/BlackList mode)
+      - Selected Countries from the list you (press them and hit the add button).
+
+  - Invalidations: You can use this tab to invalidate (Delete) objects from the cache without waiting for the TTL to kick in (this costs money)
