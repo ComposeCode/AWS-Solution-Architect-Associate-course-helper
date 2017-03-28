@@ -12,5 +12,5 @@
 
 - In transit Encryption: handled by SSL/TLS
 - At REST:
-      server side encryption: S3 Managed Keys - SSE-S3,  
-      client-side encryption
+    -  server side encryption: S3 Managed Keys - SSE-S3,  AWS Key Management service - Managed Keys - SSE-KMS (envelope key), Server side encyrption with custome rprovided keys (SSE-C)
+    -  client-side encryption: 
