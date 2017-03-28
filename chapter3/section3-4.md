@@ -84,3 +84,4 @@ Amazon CloudFront is optimized to work with other Amazon web services, like Amaz
       - Selected Countries from the list you (press them and hit the add button).
 
   - Invalidations: You can use this tab to invalidate (Delete) objects from the cache without waiting for the TTL to kick in (this costs money)
+  - Disable the Distribution: go to distributions, select the newly created distribution, hit disable.
