@@ -41,3 +41,12 @@
 ```
   Need Gateway diagram.
 ```
+
+### Exam Tips
+
+- File Gateway - For flat files, stored directly on S3 (no operating systems,  databases, etc for that we need block storage).
+- Volume Gateway:
+  - Stored Volumes:  Entire Dataset is stored on site and is asynchronously backed up to S3.
+  - Cached Volumes: Entire dataset is stored on S3 and the most frequently accessed data is cached on site.
+- Gateway Virtual Tape Library (VTL)
+  - Used for backup and uses popular backup applications like BetBackup, Backup Exec, Veam etc. 
