@@ -59,6 +59,8 @@
   - Server Side: S3 Managed Keys (SSE-S3, uses AES-256), AWS Key Management Service (Managed Keys, SSE-KMS, Envelope Key), Server side Encryption with Customer Provided Keys (SSE-C)
   - Client Side
 
+
+
 ### Lifecycle Management
 
 - Lifecycle Management: can be used in conjunction with versioning.
