@@ -81,6 +81,13 @@
     - Cached Volumes: entire dataset is stored on S3 and most frequently accessed data is cached on site.
 
 - Gateway Virtual Tape Library (VTL):
-  - Used for backup and uses popular backup applications like NetBackup, Backup Exec, Veam  etc.
+  - Used for backup and uses popular backup applications like NetBackup, Backup Exec, Veam etc.
 
 ### Snowball
+
+- Standard Snowball (pure storage)
+- Snowball Edge: Storage plus compute functionality
+- Snowmobile: 100 Petabyte (with armed protection)
+- Understand what snowball is, understand what import export is. Import to S3, export form S3.
+
+### S3 Transfer Acceleration
