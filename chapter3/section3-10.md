@@ -91,3 +91,7 @@
 - Understand what snowball is, understand what import export is. Import to S3, export form S3.
 
 ### S3 Transfer Acceleration
+
+- You can speed up transfers to S3 using S3 transfer acceleration. This costs extra, and has the greatest impact on people who are in far away locations.
+
+### 
