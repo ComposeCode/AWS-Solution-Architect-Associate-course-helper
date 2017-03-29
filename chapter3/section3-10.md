@@ -46,6 +46,20 @@
   - Objects are cached for the life of the TTL (Time To Live).
   - You can clear cached objects, but you will be charged.
 
+### Lifecycle Management
+
+  - Lifecycle Management: can be used in conjunction with versioning.
+
+  - Can be applied to current versions and previous versions.
+
+  - Following actions can now be done:
+
+    - Transition to the Standard - Infrequent Access Storage Class (128KB in size + 30 days after the creation date).
+    - Archive to the Glacier Storage Class (30 days after IA, if relevant).
+    - Permanently delete objects with lifecycle rules.
+
+## Security and Encryption
+
 - All newly created buckets are PRIVATE
 
 - You can setup access control to your buckets using:
@@ -59,16 +73,14 @@
   - Server Side: S3 Managed Keys (SSE-S3, uses AES-256), AWS Key Management Service (Managed Keys, SSE-KMS, Envelope Key), Server side Encryption with Customer Provided Keys (SSE-C)
   - Client Side
 
+### Storage Gateway
 
+- File Gateway, for flat files, stored directly on S3.
+- Volume Gateway:
+    - Stored Volumes: entire dataset is stored on site and is asynchronously backed up to S3.
+    - Cached Volumes: entire dataset is stored on S3 and most frequently accessed data is cached on site.
 
-### Lifecycle Management
+- Gateway Virtual Tape Library (VTL):
+  - Used for backup and uses popular backup applications like NetBackup, Backup Exec, Veam  etc.
 
-- Lifecycle Management: can be used in conjunction with versioning.
-
-- Can be applied to current versions and previous versions.
-
-- Following actions can now be done:
-
-  - Transition to the Standard - Infrequent Access Storage Class (128KB in size + 30 days after the creation date).
-  - Archive to the Glacier Storage Class (30 days after IA, if relevant).
-  - Permanently delete objects with lifecycle rules.
+### Snowball
