@@ -46,7 +46,7 @@
   - Objects are cached for the life of the TTL (Time To Live).
   - You can clear cached objects, but you will be charged.
 
-### Lifecycle Management
+## Lifecycle Management
 
   - Lifecycle Management: can be used in conjunction with versioning.
 
@@ -73,7 +73,7 @@
   - Server Side: S3 Managed Keys (SSE-S3, uses AES-256), AWS Key Management Service (Managed Keys, SSE-KMS, Envelope Key), Server side Encryption with Customer Provided Keys (SSE-C)
   - Client Side
 
-### Storage Gateway
+## Storage Gateway
 
 - File Gateway, for flat files, stored directly on S3.
 - Volume Gateway:
@@ -83,15 +83,28 @@
 - Gateway Virtual Tape Library (VTL):
   - Used for backup and uses popular backup applications like NetBackup, Backup Exec, Veam etc.
 
-### Snowball
+## Snowball
 
 - Standard Snowball (pure storage)
 - Snowball Edge: Storage plus compute functionality
 - Snowmobile: 100 Petabyte (with armed protection)
 - Understand what snowball is, understand what import export is. Import to S3, export form S3.
 
-### S3 Transfer Acceleration
+## S3 Transfer Acceleration
 
 - You can speed up transfers to S3 using S3 transfer acceleration. This costs extra, and has the greatest impact on people who are in far away locations.
 
-### 
+## S3 Static Websites
+
+- S3 can be used to host static websites.
+- Serverless (no vms required etc)
+- very cheap, scales automatically.
+- Static ONLY, cannot host dynamic sites.
+
+## Final Tips
+
+- Write to S3, HTTP 2000 code for successful write.
+
+- You can load files to S3 much faster than by enabling multipart upload.
+
+- 
