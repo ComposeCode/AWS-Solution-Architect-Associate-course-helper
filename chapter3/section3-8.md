@@ -8,4 +8,4 @@ S3 Transfer Acceleration utilises the CloudFront Edge Network to accelerate your
 
 - Go to AWS -> S3 -> Go to the Bucket -> Click Transfer Acceleration -> From here, you can enable it.
 
-- Note in gernal: the further you are away from an S3 region, the higher speed improvement you can expect from using the S3 Transfer Acceleration. 
+- Note in general: the further you are away from an S3 region, the higher speed improvement you can expect from using the S3 Transfer Acceleration. 
