@@ -1,4 +1,4 @@
-# Chapter 3, Section 8: S3 Static Website
+# Chapter 3, Section 9: S3 Static Website
 
 ## How to create a static website on S3 (lab)
 
@@ -8,4 +8,4 @@
 - On this screen you will see the endpoint for the website provided by the bucket. You can also enable the static website here as well.
 - Write an index.html file and upload it to the bucket.
 - Go back to the Properties section and change the static website option index.html edit box to the value of your index.html file you just uploaded (it should be the filename).
-- Follow the link and you should be able to view the home page. 
+- Follow the link and you should be able to view the home page.
