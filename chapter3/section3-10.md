@@ -54,7 +54,10 @@
 
 - S3 Buckets can be configured to create access logs which log all requests made to the S3 bucket. This can be done to another bucket.
 
-- 
+- Encryption:
+  - In Transit: using SSL/TLS,  
+  - Server Side: S3 Managed Keys (SSE-S3, uses AES-256), AWS Key Management Service (Managed Keys, SSE-KMS, Envelope Key), 
+  - Client Side
 
 ### Lifecycle Management
 
