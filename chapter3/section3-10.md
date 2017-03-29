@@ -34,13 +34,25 @@
 
 - Cross Region replication, requires versioning enabled on the source bucket/destination bucket.
 
-## Terminology
-
 - Edge Location: This is the location where content will be cached. This is separate to an AWS region/Availability zone.
 
 - Origin: This is the origin of all the files that the CDN will distribute. This can either be an S3 Bucket, an EC2 Instance, an Elastic Load Balancer or Route53.
 
-- Distribution: This is the name given to the CDN which consists of a collection of Edge Locations.
+- Distribution: This is the name given to the CDN which consists of a collection of Edge Locations (two types of distribution):
+  - Web Distribution: Typically used for Websites.
+  - RTMP: Used for Streaming video/flash files.
+
+- Edge Locations are not just READ ONLY, you can write to them too (I.E put objects on them)
+  - Objects are cached for the life of the TTL (Time To Live).
+  - You can clear cached objects, but you will be charged.
+
+- All newly created buckets are PRIVATE
+
+- You can setup access control to your buckets using:
+  - Bucket Policies
+  - Access Control Lists
+
+- S3 Buckets can be configured to create access logs which log all requests made to the S3 bucket. This can be done to another bucket.
 
 - 
 
