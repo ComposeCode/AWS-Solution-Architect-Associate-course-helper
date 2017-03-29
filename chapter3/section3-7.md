@@ -31,4 +31,4 @@ Snowball Edge connects to your existing applications and infrastructure using st
 - Understand what Snowball is
 - Understand what Import Export is
 - Snowball can:
-  - Import to S3, Export from S3. 
+  - Import to S3, Export from S3.
