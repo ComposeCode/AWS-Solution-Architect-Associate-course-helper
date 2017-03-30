@@ -47,4 +47,23 @@ Amazon EC2 changes the economics of computing by allowing you to pay only for ca
 - Can be purchased On-Demand (hourly)
 - Can be purchased as a reservation for up to 70% off the On-Demand Price.
 
-# EC2 Instance Types 
+# EC2 Instance Types
+
+```
+  Need Family Types Table for Instance Types
+```
+
+Anagram: DIRTMCGFPX
+
+Doctor Mc GIFT PX
+
+D is for Density
+R is for Ram
+M is for main choice general purpose apps
+C is for Compute
+G is for Graphics
+I is for IOPS
+F is for FPGA
+T cheap general purpose (think T2 Micro)
+P - Graphics think pictures
+X - Extreme Memory 
