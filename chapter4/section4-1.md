@@ -24,4 +24,27 @@ Amazon EC2 changes the economics of computing by allowing you to pay only for ca
 ## Reserved
 
 - Applications with steady state or predictable usage.
-- 
+- Applications that required reserved capacity.
+- Users able to make upfront payments to reduce their total computing costs even further (locked in 1-3 year contract, locked in, can pay up-front).
+- Applications with steady state or predictable usage.
+
+## Spot
+
+- Spot prices change on region/availability zone
+- Set a bid price for your compute. When the spot price and bid price are the same, compute power will be purchased.
+- If your spot price moves about your bid price, then your instances are terminated.
+- Applications that are only feasible at very low compute prices.
+- Applications that have flexible start and end times.
+- Users with urgent computing needs for large amounts of additional capacity.
+
+## Spot Exam Tip
+- If the spot instance is terminated by Amazon EC2, you will not be charged for a partial hour of usage. However, if you terminate the instance yourself you will be charged for any hour in which the instance ran.
+
+# Dedicated Hosts
+
+- Useful for regulatory requirements that may not support multi-tenant virtualisation.
+- Great for licensing which does not support multi-tenancy or cloud deployments.
+- Can be purchased On-Demand (hourly)
+- Can be purchased as a reservation for up to 70% off the On-Demand Price.
+
+# EC2 Instance Types 
