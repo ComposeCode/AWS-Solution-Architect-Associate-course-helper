@@ -88,3 +88,14 @@ EBS Volume Types:
   - Data Warehouses
   - Log Processing
   - Cannot be a boot volume
+
+- Cold Hard Disk Drives (SC1)
+  - Lowest Cost Storage for infrequently accessed workloads.
+  - File Server
+  - Cannot be a boot volume.
+
+- Magnetic (Standard)
+  - Lowest cost per gigabyte of all EBS volume types that is bootable.
+  - Magnetic volumes are ideal for workloads where data is accessed infrequently, and applications where the lowest storage cost is important.
+
+##
